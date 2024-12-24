@@ -15,7 +15,7 @@ nav {
 
 /* Style for the brand link */
 .navbar-brand {
-    color: rgb(18, 13, 13); 
+    color: rgb(255, 131, 7); 
     text-decoration: none;
     font-size: 24px; 
     display: inline-block; 
@@ -24,7 +24,7 @@ nav {
 
 /* Optional: Hover effect */
 .navbar-brand:hover {
-    color: #ff995ade; 
+    color: #24b9d4de; 
 }
 
 h1 {
