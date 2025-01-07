@@ -11,7 +11,8 @@ body {
 
 h1 {
     background: linear-gradient(to right, #5206d5e6, #2d87b8); /* You can customize the gradient colors here */
-    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-background-clip: text;    
     color: transparent;
     font-size: 3rem;
     font-weight: bold;
