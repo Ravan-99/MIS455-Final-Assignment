@@ -1,11 +1,12 @@
 /* Global Styles */
 body {
     background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: 'Poppins', sans-serif;
     background-color: #f5f5f5;
-    background-size: cover;
-    align-items: center;
-    align-items: baseline;
+    height: 100vh;
+    
 }
 
 h1 {
