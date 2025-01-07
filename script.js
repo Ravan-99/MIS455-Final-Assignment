@@ -65,7 +65,7 @@ function displayCountryData(country, history) {
     countryCard.classList.add("col-md-4", "mb-4"); // Bootstrap grid for responsive design
     countryCard.innerHTML = `
         <div class="card">
-            <img src="${country.flags.png}" alt="Flag of ${country.name.common}" class="card-img-top">
+            <img src="${country.flags.png}" alt="Flag of ${country.name.common}" class="card-img">
             <div class="card-body">
                 <h5 class="card-title">${country.name.common}</h5>
                 <p class="card-text"><strong>Capital:</strong> ${country.capital ? country.capital[0] : "N/A"}</p>

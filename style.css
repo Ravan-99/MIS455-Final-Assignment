@@ -1,35 +1,15 @@
 /* Global Styles */
 body {
+    background-image: url(img/bg.jpg);
     font-family: 'Poppins', sans-serif;
     background-color: #f5f5f5;
-}
-
-/* Navbar */
-nav {
-    background-color: #010000; 
-    padding: 10px 20px; 
-    display: flex;
-    justify-content: flex-start; 
-    align-items: center; 
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.248);
-}
-
-/* Style for the brand link */
-.navbar-brand {
-    color: rgb(255, 131, 7); 
-    text-decoration: none;
-    font-size: 24px; 
-    display: inline-block; 
-    font-weight: bold; /
-}
-
-/* Optional: Hover effect */
-.navbar-brand:hover {
-    color: #24b9d4de; 
+    background-size: cover;
+    align-items: center;
+    align-items: baseline;
 }
 
 h1 {
-    background: linear-gradient(to right, #ff7e5f, #feb47b); /* You can customize the gradient colors here */
+    background: linear-gradient(to right, #5206d5e6, #2d87b8); /* You can customize the gradient colors here */
     -webkit-background-clip: text;
     color: transparent;
     font-size: 3rem;
@@ -37,10 +17,18 @@ h1 {
 } 
 
 .card{
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    background: rgba( 255, 255, 255, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 }
 
+.card-img{
+    border-radius: 20px;
+}
 /* Weather Card */
 .weather-card {
     border-radius: 10px;
@@ -50,7 +38,8 @@ h1 {
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     margin: 20px auto;
-    max-width: 250px;
+    max-width: 250px; 
+    border: 0cm;
 }
 
 .weather-display {
